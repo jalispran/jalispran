@@ -9,8 +9,9 @@ tag:
 - components
 - extra
 category: blog
-author: jamesfoster
+author: pranjal
 description: Markdown summary with different options
+hidden: true
 ---
 
 ## Summary:

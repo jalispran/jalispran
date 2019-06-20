@@ -1,0 +1,34 @@
+---
+title: "FIFA World Cup 2018"
+layout: post
+date: 2018-06-01 
+tag: 
+    - Predictions Game
+    - Android App
+    - Spring Boot
+    - Micro Services
+image: https://upload.wikimedia.org/wikipedia/en/6/67/2018_FIFA_World_Cup.svg
+headerImage: true
+projects: true
+hidden: false # don't count this post in blog pagination
+description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
+category: project
+author: pranjal
+externalLink: false
+---
+
+## Summary:
+FIFA 2018 was an Android App developed specially for the World Cup season 2018. Herein, a user can register himself by verifying their mobile number via OTP. Then login to the system and make predictions on upcoming matches.
+
+A leaderboard was maintained where users were ranked according to their points. A user could collect 2 points for correct prediction, 0 for wrong prediction and 1 in case of a draw.
+
+### Tech stack:
+1. Spring Boot
+2. H2 In memory database
+3. Hibernate
+4. Eh Cache
+5. MySQL
+6. AWS EC2, RDS, SNS
+
+### Further reading:
+You can find the entire code [here](https://github.com/jalispran/fifa-2018) and to understand how the project is structured, refer [this](https://medium.com/@jalispran/fifa-2018-wc-football-api-988123774279).
