@@ -19,7 +19,7 @@ externalLink: false
 ---
 
 ## Summary:
-This was a afun Android application wherein a needs to register using mobile number. After login, user is presented with a list of all upcoming IPL matches. The user can make predictions as to who the user thinks will win the specific match. Users are scored on the basis of correct predictions and a leaderboard was maintained.
+This was a fun Android application wherein a user needs to register using mobile number. After login, user is presented with a list of all upcoming IPL matches. The user can make predictions as to who the user thinks will win that specific match. Users are scored on the basis of correct predictions and a leaderboard was maintained.
 
 ---
 
