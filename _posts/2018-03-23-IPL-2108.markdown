@@ -1,0 +1,43 @@
+---
+title: "IPL 2018"
+layout: post
+date: 2018-03-23
+tag: 
+    - IPL 
+    - Live Score
+    - Prediction Game
+    - Ball By Ball Commentry
+    - Micro Services Architecture
+image: https://www.techadvisor.co.uk/cmsdata/features/3674989/how_to_watch_ipl_2018_logo_1600home_thumb800.jpg
+headerImage: true
+projects: true
+hidden: false # don't count this post in blog pagination
+description: "This project was a small prediction game wherein a user can log in and mark predictions for upcoming IPL matches."
+category: project
+author: pranjal
+externalLink: false
+---
+
+## Summary:
+This was a afun Android application wherein a needs to register using mobile number. After login, user is presented with a list of all upcoming IPL matches. The user can make predictions as to who the user thinks will win the specific match. Users are scored on the basis of correct predictions and a leaderboard was maintained.
+
+---
+
+### Tech stack:
+* Spring Boot
+* Maven
+* Jsoup
+* OkHttp3
+* H2 - In Memory Database
+* Hibernate
+* MySQL
+* AWS EC2, RDS
+
+---
+
+### Further reading:
+**Spring Boot** was the choice of framework because of its ease of use. Additionally, using *Spring Boot* means a huge amount of code could be reused from earlier projects. **Maven** was used as a build tool. The resulting *jar* after *Maven* was deployed on **AWS EC2** instance which was maintained in the same *security group* as the **AWS RDS** instance for increase security to the database. *AWS RDS* was a MySQL database server. In addition to MySQL database, one **H2 - In memory database** was also used to serve assets that were required by the android app. This technique actually reduced one round trip time (per request) of going to the *RDS* instance and fetching the required assets. 
+
+> <span class="evidence">This project was revived for the 2019 season of IPL.</span>
+
+We could not find any free API that was able to provide us live scores and ball by ball updates. Hence we decided to poll the official match webpage from IPL website and parse it for ball by ball commentry and live score. This was done using **Jsoup** library.
