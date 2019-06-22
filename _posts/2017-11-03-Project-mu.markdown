@@ -9,7 +9,8 @@ tag:
     - MQTT
     - Trust Establishment
     - Mosquitto Message Broker
-headerImage: false
+image: https://mosquitto.org/images/mosquitto-text-side-28.png
+headerImage: true
 projects: true
 hidden: false # don't count this post in blog pagination
 description: "This was a integration based project wherein we used different kinds of technologies for different kinds of tasks."
