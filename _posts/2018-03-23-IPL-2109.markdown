@@ -36,8 +36,8 @@ This was a fun Android application wherein a user needs to register using mobile
 ---
 
 ### Further reading:
-**Spring Boot** was the choice of framework because of its ease of use. Additionally, using *Spring Boot* means a huge amount of code could be reused from earlier projects. **Maven** was used as a build tool. The resulting *jar* after *Maven* was deployed on **AWS EC2** instance which was maintained in the same *security group* as the **AWS RDS** instance for increase security to the database. *AWS RDS* was a MySQL database server. In addition to MySQL database, one **H2 - In memory database** was also used to serve assets that were required by the android app. This technique actually reduced one round trip time (per request) of going to the *RDS* instance and fetching the required assets. 
+**Spring Boot** was the choice of framework because of its ease of use. Additionally, using *Spring Boot* means a huge amount of code could be reused from earlier projects. **Maven** was used as a build tool. The resulting *jar* after *Maven* build was deployed on **AWS EC2** instance which was maintained in the same *security group* as the **AWS RDS** instance. This increased security to the database. *AWS RDS* was a MySQL database server. In addition to MySQL database, one **H2 - In memory database** was also used to serve assets that were required by the android app. This technique actually reduced one round trip time (per request) of going to the *RDS* instance and fetching the required assets. 
 
 > <span class="evidence">This project was revived for the 2019 season of IPL.</span>
 
-We could not find any free API that was able to provide us live scores and ball by ball updates. Hence we decided to poll the official match webpage from IPL website and parse it for ball by ball commentry and live score. This was done using **Jsoup** library.
+We could not find any free API that was able to provide us live scores and ball by ball updates. Hence we decided to poll the official IPL match webpage and parse it for ball by ball commentry and live score. This was done using **Jsoup** library.

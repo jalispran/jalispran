@@ -41,12 +41,12 @@ This project was developed to facilitate small business owners to take full cont
 
 **Hibernate** was the choice of ORM because of its vendor independance and easy integration with Spring environment. **MySQL** databasae was used which was deployed on an **AWS RDS**.
 
-Since this project had a lot of resusable code, it was a good idea to divide the project in a parent module and a child module. **Maven** helped in making parent and child modules which had different POMs. The parent module had basic configurations for Resource Server and Authentication Server in place. Also, **Swagger** was configured in the parent module. Child module was able to pick and choose which features/configurations it wanted to use from the parent module and was free extend the code or simply write it from scratch.
+Since this project had a lot of resusable code, it was a good idea to divide the project in a parent module and a child module. **Maven** helped in making parent and child modules which had different POMs. The parent module had basic configurations in place for *Resource Server* and *Authentication Server*. Also, **Swagger** was configured in the parent module. Child module was able to pick and choose which features/configurations it wanted to use from the parent module and was free extend the code or simply write it from scratch.
 
 Swagger 1.3 was used instead of Swagger 2 because, at the time of development, Swagger 2 did not allow for token based authentication using **OAuth2** bearer schema.
 
 OAuth2 authentication was used for clients (typically Android app and Web app) to authenticate against the service. Clients sent **JWT** in *Bearer schema* to request access to a part of the system. However, other web services were authenticated using *Basic Authentication* and public/private keys.
 
-In addition to this, **ZXing** was used to generate *UPI QR* and *Bharat QR* depending on the client request. Client could select the type of QR (static/dynamic and UPI/BQR). Also, for generating QR Codes a <u>15% error correction at Level M</u> was used as a provision to embed organization logo in the QR. Additionally **Drools** was used to validate BHARAT QR.
+In addition to this, **ZXing** was used to generate *UPI QR* and *Bharat QR* depending on the client request. Client could select the type of QR (static/dynamic and UPI/BQR) at the time of registration. Also, for generating QR Codes a <u>15% error correction at *Level M*</u> was used as a provision to embed organization logo in the QR. Additionally **Drools** was used to validate *BHARAT QR*.
 
 Stay tuned for a blog post on **How to embedd logo in a QR code**.
