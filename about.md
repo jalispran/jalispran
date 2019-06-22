@@ -13,4 +13,4 @@ I am a firm believer in *opensource software* and its values. This blog is a way
 
 I started my career as Software Developer in September of 2017 and have been working since. For the first 18 months of my career, I worked with a fintech called [Mosambee](http://home.mosambee.in/). This was an exceptional experience for me. Presently, I work with **Samsung Research Institute, Bangalore**.
 
-I love to collaborate with like minded people on finding creative solutions to problems. Feel free to say hi at the following channels.
+I love to collaborate with like minded people on finding creative solutions to problems. Feel free to say hi at the following channels. I usually reply within a day.
