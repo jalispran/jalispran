@@ -8,7 +8,8 @@ tag:
     - Bharat QR
     - Rule Engine
     - Micro Services Architecture
-headerImage: false
+image: https://www.npci.org.in/sites/all/themes/npcl/images/product-overview/bharat_qr-logo.png
+headerImage: true
 projects: true
 hidden: false # don't count this post in blog pagination
 description: "This project was a loan collection system designed to facilitate small business owners to take full control of their loan repayments."
