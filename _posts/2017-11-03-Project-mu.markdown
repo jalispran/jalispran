@@ -20,7 +20,7 @@ externalLink: false
 ---
 
 ## Summary:
-This was one of the most ambitious project that I had worked on. It included vast amount of technologies.
+This was one of the most ambitious projects that I had worked on. It included vast amount of technologies.
 
 ---
 

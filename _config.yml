@@ -1,6 +1,6 @@
 # main text of home
 name: Pranjal Gore
-bio: Software Engineer | Aspiring Blogger
+bio: Software Developer | Aspiring Blogger
 
 # twitter summary info
 description: Spreading code, one blog at a time
@@ -70,7 +70,7 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 #paginate: 3

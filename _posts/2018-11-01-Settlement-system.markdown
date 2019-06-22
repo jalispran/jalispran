@@ -30,7 +30,7 @@ This was one of the longest running projects that I had worked on. It had the to
 ---
 
 ### Further reading:
-Unlike others, this was not a project that was started from scratch. This was one of the project that was being used by users on a regular basis. However, this time it had major changes to be incorporated. These changes would reshape the entire project.
+Unlike others, this was not a project that was started from scratch. This was one of the projects that was being used by operators on a regular basis. However, this time it had major changes to be incorporated. These changes would reshape the entire project.
 
 This project was integrated with [Loan Collection System][1] to provide a wholesome view of the entire ecosystem. This project basically focused on merchant payouts. For any instrument the merchant used, this project was capable of processing merchant payouts in minimum possible amount of time. 
 
