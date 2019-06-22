@@ -129,7 +129,7 @@ SEND or SUBSCRIBE commands are used to send or subscribe for messages along with
 
 ### When to use Websocket Protocol?
 *Short Answer?* <br/>
-Low latency, high frequency and high volume that make the best case for the use WebSocket.
+Low latency, high frequency and high volume that make the best case for the use of WebSockets.
 
 #### What are my alternatives?
 A combination of Ajax and HTTP streaming and/or long polling could provide a simple and effective solution, just like websocket. For example news, mail, and social feeds need to update dynamically but it may be perfectly okay to do so every few minutes. Collaboration, games, and financial apps on the other hand need to be much closer to real time.
