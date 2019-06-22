@@ -5,4 +5,10 @@ layout: default
 
 {{content}}
 
+{% if page.social %}
+    <center>
+            {% include social-links.html %}
+    </center>
+{% endif %}
+
 {% include footer.html %}
