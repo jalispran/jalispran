@@ -31,8 +31,6 @@ This was one of the most ambitious project that I had worked on. It included vas
 ---
 
 ### Further reading:
-**Love you Dhagu**
-
 **Bharat Bill Payments System** is *NPCI*'s centralised Bill Payment System For Everyday Bills. This project integrates with *BBPS* enabled and *non-BBPS* billers to provide a consistent and provides users (Individuals/Banks/Aggregators) with the ability to make bill payments.
 
 **Spring Boot** was the choice of framework because of its ease of use, a huge community support and excellent documentation. **Maven** was used as a build tool. The resulting *jar* after *Maven* build was deployed on **AWS EC2** instance which was maintained in the same *security group* as an **AWS RDS** instance.
