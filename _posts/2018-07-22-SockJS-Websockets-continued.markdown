@@ -71,7 +71,7 @@ Second parameter **session_id** must be a random string, unique for every sessio
 SockJS server does not have any framing defined. All incoming data is treated as incoming messages, either single json-encoded messages or an array of json-encoded messages, depending on transport.
 
 ![Markdown Image](../assets/websockets-all-you-need-to-know/snapshot7.png)
-<figcaption class="caption">Summary of the entire process. Notice blue notes scribbled in the image?</figcaption>
+<figcaption class="caption">Summary of the entire process. Notice blue comments scribbled in the image?</figcaption>
 
 <div class="breaker"></div>
 
