@@ -1,5 +1,5 @@
 ---
-title: "Websocket - All you need to know"
+title: "Websockets - All you need to know"
 layout: post
 date: 2018-07-18
 tag: 
