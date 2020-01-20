@@ -49,4 +49,7 @@ OAuth2 authentication was used for clients (typically Android app and Web app) t
 
 In addition to this, **ZXing** was used to generate *UPI QR* and *Bharat QR* depending on the client request. Client could select the type of QR (static/dynamic and UPI/BQR) at the time of registration. Also, for generating QR Codes a <u>15% error correction at *Level M*</u> was used as a provision to embed organization logo in the QR. Additionally **Drools** was used to validate *BHARAT QR*.
 
-Stay tuned for a blog post on **How to embed a logo in a QR code**.
+Stay tuned for a blog post on [How to embed a logo in a QR code][1].
+
+
+[1]: {{site.url}}/Overlaying-Image-In-QR "Overlaying image in QR"
