@@ -29,7 +29,7 @@ Coordinating the actions of these independant programs is far more difficult tha
 - Facebook Messenger 
 
 ## CAP Theorem
-It is impossible for a dostributed data store to simultaneously provide more than two out of the following three gurantees.
+It is impossible for a distributed data store to simultaneously provide more than two out of the following three gurantees.
 - _Consistency_: Every read receives the most recent write or an error
 - _Availability_: Every request receives a (non-error) response - without the gurantee that it contains the most recent write
 - _Partition tolerance_: the system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes
@@ -53,7 +53,7 @@ A watch is a one-shot operation, which means that it triggers one notification
 Zookeeper quorum is the minimum number of servers that have to be running and available in order for Zookeeper to work
 
 #### zxid
-A _zxid_ is a long (64 bit) integer split into two parts: the  _epoch_ and the _counter_. Each part has 32 bits. Simply put, _zxid_ is the timestamp of the last change
+A _zxid_ is a long (64 bit) integer split into two parts: the _epoch_ and the _counter_. Each part has 32 bits. Simply put, _zxid_ is the timestamp of the last change
 
 #### leader
 The _leader_ is the central point for handling all requests that change the Zookeeper system. It acts as a sequencer and establishes the order of updates to the Zookeeper state.
