@@ -171,6 +171,23 @@ Before acknowledging the `PROPOSAL`, the `FOLLOWER` needs to perform these check
 
 > In a single machine, if a process fails, other processes can detect the failure from OS. However, in a distributed system, the processes which are still running are responsible to detect failure of other processes
 
+## Directories to watch out for
+A typical Zookeeper installation on Ubuntu has the following components.
+- `/usr/share/zookeeper/`
+- `/etc/zookeeper`
+- `/var/lib/zookeeper`
+- `/etc/alternatives/zookeeper-conf`
+
+#### logs
+```
+tail -f  /var/log/zookeeper/zookeeper.log
+```
+
+#### start zookeeper service
+```
+sudo /usr/share/zookeeper/bin/zkServer.sh
+```
+
 ## What next?
 
 I have done several experiments with Zookeeper. Experiments with different configurations, added weights to each vote and more scenarios.  Sharing all experiments is not feasible here, but depending on the response to this Zookeeper series of two posts, I may write another follow-up blog in the future regarding one or two of my experiments. Till then, adios amigos! 
