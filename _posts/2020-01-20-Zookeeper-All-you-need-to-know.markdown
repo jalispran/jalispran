@@ -135,5 +135,3 @@ I will cover the following topics in next post:
 - Logs
 
 See you soon! 
-
- 
