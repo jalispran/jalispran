@@ -1,13 +1,13 @@
 ---
 title: "Inversion of Control"
 layout: post
-date: 2020-04-01
+date: 2020-03-28
 tag: 
     - Inversion of Control
     - Dependency Injection
     - Design Pattern
     - Source Code Architecture
-description: "This is Pranjal's take on Inversion of Control"
+description: "This is my take on Inversion of Control"
 category: blog
 author: pranjal
 ---
