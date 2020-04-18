@@ -69,8 +69,8 @@ So the core problem we (Spring container) are trying to solve is **HOW** do we (
 
 The important difference between the two patterns (Dependency Injection and Service Locator) is about **HOW** that implementation is provided to the application class. 
 
-- With *service locator* the application developer asks for the implementation class explicitly. This is done by a message to the locator, something like a `getService(Contract.class)`.
-- With injection there is no explicit request. The service just appears in the application class, something like `@Autowired Contract contract`. Hence *inversion of control*. The control is moved from application developer to the framework.
+- With *service locator* the plugin developer asks for the implementation class explicitly. This is done by a message to the locator, something like a `getService(Contract.class)`.
+- With injection there is no explicit request. The service just appears in the class, something like `@Autowired Contract contract`. Hence *inversion of control*. The control is moved from application developer to the framework.
 
 ### About Martin Fowler's Definition
 
