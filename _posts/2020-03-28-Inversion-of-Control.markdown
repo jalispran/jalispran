@@ -14,7 +14,7 @@ author: pranjal
 
 ### Disclaimer
 
-I recently understood what Inversion of Control means. Now, I admit that I may be not-so-accurate on some concepts, so I advise you to use your best judgement. Also, feel free to reach out to me in case you want to discuss these concepts or just want to criticize me about the writing this terrible piece of article.
+I recently understood what Inversion of Control means. Now, I admit that I may be not-so-accurate on some concepts, so I advise you to use your best judgement. Also, feel free to reach out to me in case you want to discuss these concepts or just want to criticize me about writing this terrible piece of article.
 
 Since I am predominantly a Java Developer and I have substantial experience with Spring and Spring Boot, I will use these in the example. However, the concepts remain the same for other languages and other frameworks as well.
 
@@ -69,7 +69,7 @@ So the core problem we (Spring container) are trying to solve is **HOW** do we (
 
 The important difference between the two patterns (Dependency Injection and Service Locator) is about **HOW** that implementation is provided to the application class. 
 
-- With *service locator* the application developer asks for the implementation class explicitly. This is done by a message to the locator, something like a `getService(ContractImpl.class)`.
+- With *service locator* the application developer asks for the implementation class explicitly. This is done by a message to the locator, something like a `getService(Contract.class)`.
 - With injection there is no explicit request. The service just appears in the application class, something like `@Autowired Contract contract`. Hence *inversion of control*. The control is moved from application developer to the framework.
 
 ### About Martin Fowler's Definition
