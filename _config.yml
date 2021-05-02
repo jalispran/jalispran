@@ -14,7 +14,7 @@ picture: assets/images/profile.png
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/Pranjal Gore Resume v2.5.pdf
+resume-url: assets/Pranjal Gore Resume v2.6.pdf
 
 #url: https://koppl.in/indigo
 url: https://pranjalgore.com
@@ -34,7 +34,7 @@ disqus:
   categories: [blog] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: jalispran
+# facebook: jalispran
 twitter: jalispran
 # google: mygoogle
 # instagram: myinstagram
